@@ -1,5 +1,10 @@
 body
 { 
+    font-family: 'Raleway', sans-serif; /*The reason there are two fonts seperated by commas, is because if Google's font server ever goes down, Your webpage will fall back on the second native font family described and ensure consistent UX*/
+    color: #F9FEFF;
+}
+.profileContainer
+{
     background: url(images/headersplash.jpg) no-repeat center center fixed;
     /*
     the -tags below are vender prefixes (targets specific browsers); 
@@ -11,15 +16,11 @@ body
     all vendors supported it by adding these vendor prefixes. Although 
     currently all current browser versions support this natively, 
     these ensure users with older browsers can have the same UX.
-      */
+    */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
-    font-family: 'Raleway', sans-serif; /*The reason there are two fonts seperated by commas, is because if Google's font server ever goes down, Your webpage will fall back on the second native font family described and ensure consistent UX*/
-    color: #F9FEFF;
 }
 
 .profile
