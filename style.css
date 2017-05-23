@@ -2,7 +2,32 @@ body
 { 
     font-family: 'Raleway', sans-serif; /*The reason there are two fonts seperated by commas, is because if Google's font server ever goes down, Your webpage will fall back on the second native font family described and ensure consistent UX*/
     color: #F9FEFF;
+    margin: 0; /*Without this the background is encased in a thick border*/
 }
+.nav-link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+li 
+{
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+ul 
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 740px;
+}
+
 .profileContainer
 {
     background: url(images/headersplash.jpg) no-repeat center center fixed;
@@ -21,6 +46,7 @@ body
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 600px;
 }
 
 .profile
@@ -30,7 +56,6 @@ body
     margin-right: auto;
 
     text-align: center;
-
 }
 
 .profilePic
@@ -57,6 +82,7 @@ h2
 {
     font-size: 25px;
     margin-top: 0px;
+    font-weight: 100;
 }
 
 .hr1
@@ -72,4 +98,88 @@ h2
 {
     font-size: 18px;
     color: #F9FEFF;
+}
+
+h3
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    color: #7D7F7F;
+}
+
+.hr2
+{
+    border-top: 5px double #7D7F7F;
+    width: 250px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.box
+{
+    float: left;
+    width: 42.5%;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+h4
+{
+    text-align: center;
+    font-size: 24px;
+    color: #00637F;
+}
+
+p
+{
+    text-align: center;
+    margin: 40px auto;
+    max-width: 400px;
+    color: black;
+}
+
+.screenshot 
+{
+    width: 100%;
+}
+
+.skills
+{
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.icons
+{
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.contact
+{
+    height: 600px;
+    background: url(images/headersplash.jpg) no-repeat center bottom fixed;
+
+    padding-top: 5px;
+}
+
+.contactBio
+{
+    color: white;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.contactLink {
+    color: #ADECFF;
+    font-weight: bold;
+    font-size: 13px;
 }
