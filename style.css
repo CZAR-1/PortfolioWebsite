@@ -150,6 +150,11 @@ p
     width: 100%;
 }
 
+.toolsTitle
+{
+    margin-top: 100px;
+}
+
 .skills
 {
     max-width: 400px;
@@ -165,7 +170,7 @@ p
 
 .contact
 {
-    height: 600px;
+    height: 750px;
     background: url(images/headersplash.jpg) no-repeat center bottom fixed;
 
     padding-top: 5px;
